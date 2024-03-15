@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border: 1px solid red;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+}
+
+#grid-container {
+  width: fit-content;
+  height: fit-content;
+}
