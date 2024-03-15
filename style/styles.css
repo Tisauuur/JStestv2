@@ -7,11 +7,14 @@
 }
 
 body {
-  width: 100vh;
-  height: 100vh;
+  width: 100svw;
+  height: 100%;
 }
 
 #grid-container {
   width: fit-content;
   height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
