@@ -1,20 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  width: 0;
-  height: 0;
-  border: 1px solid red;
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-body {
-  width: 100svw;
-  height: 100%;
+#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 #grid-container {
-  width: fit-content;
-  height: fit-content;
+  width: 450px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 50px;
 }
